@@ -8,7 +8,7 @@
 
 ## How to Get SESSION_ID
 
-◆─ EASY Way To Connect Your ◆─ᴍɪᴅ-ʙᴏᴛ─◆:
+◆─ EASY Way To Connect Your ᴍɪᴅ-ʙᴏᴛ:
 
 <a href="https://paringcode-9b409aad4967.herokuapp.com/pair" target="_blank">
 <img src="https://camo.githubusercontent.com/6c20e67894f3bc86e883e23af4dce5adf8bbbea74b97fe37cc943cc4c35bda8e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53657373696f6e5f69642d3130303030303f7374796c653d666f722d7468652d6261646765266c6f676f3d7363616e266c6f676f436f6c6f723d7768697465266c6162656c436f6c6f723d626c61636b26636f6c6f723d626c61636b" alt="SESSION_ID" />
