@@ -6,7 +6,7 @@ process.env.MODE = 'public'
 process.env.antidelete = 'false'
 process.env.DATABASE_URL = '';
 process.env.PREFIX = '.' 
-process.env.SESSION_ID = ''
+process.env.SESSION_ID = '' 
 
  global.owner = [['رقمك', '👑 ᴍɪᴅ-ʙᴏᴛ 👑', true]] 
  global.baileys = '@whiskeysockets/baileys'
