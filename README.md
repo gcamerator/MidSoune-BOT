@@ -15,7 +15,7 @@ This project is an example that was built along with a Youtube Series showing ho
 EASY Way To Connect Your ◆─ᴍɪᴅ-ʙᴏᴛ─◆:
 
 <a href="https://paringcode-9b409aad4967.herokuapp.com/pair" target="_blank">
-<img src="https://github.com/midsoune/MidSoune-BOT/blob/main/Menu.jpg" alt="SESSION_ID" width="240" height="180" border="10" />
+<img src="https://github.com/midsoune/MidSoune-BOT/blob/main/Menu.jpg" alt="SESSION_ID" width="240" height="100" border="10" />
 </a>
 
 1. Enter Your Whatsapp Number
