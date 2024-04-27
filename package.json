@@ -1,6 +1,6 @@
 {
   "name": "midsoune-bot",
-  "version": "1.0.0",
+  "version": "2.0.24",
   "description": "WhatsApp Bot By MidSoune",
   "main": "index.js",
   "type": "module",
