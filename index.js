@@ -1,1 +1,71 @@
-const _0x216ff9=_0x576f;(function(_0x44c742,_0x34ddef){const _0x531b8c=_0x576f,_0xa15ffe=_0x44c742();while(!![]){try{const _0x5c0072=parseInt(_0x531b8c(0x1b6))/0x1*(-parseInt(_0x531b8c(0x1b7))/0x2)+-parseInt(_0x531b8c(0x1bc))/0x3*(parseInt(_0x531b8c(0x1c0))/0x4)+-parseInt(_0x531b8c(0x1b3))/0x5*(-parseInt(_0x531b8c(0x1c5))/0x6)+parseInt(_0x531b8c(0x1b8))/0x7*(-parseInt(_0x531b8c(0x1ab))/0x8)+-parseInt(_0x531b8c(0x1a9))/0x9*(-parseInt(_0x531b8c(0x1c6))/0xa)+parseInt(_0x531b8c(0x1ae))/0xb*(-parseInt(_0x531b8c(0x1ac))/0xc)+parseInt(_0x531b8c(0x1af))/0xd;if(_0x5c0072===_0x34ddef)break;else _0xa15ffe['push'](_0xa15ffe['shift']());}catch(_0x4ed14d){_0xa15ffe['push'](_0xa15ffe['shift']());}}}(_0x73b9,0xe0141));import{join,dirname}from'path';import{fileURLToPath}from'url';import{setupMaster,fork}from'cluster';import{watchFile,unwatchFile}from'fs';function _0x73b9(){const _0x55ed93=['47033402uFaYZG','error','trim','_0x4f0376','55cHgTNi','slice','line','214388jjXNQC','12WshyTB','10123869GpQqZp','_0x402610','_0x5bc6a8','reset','3cqUSpM','Midsoune.js','_0x41cef6','center','4924004kgUgZl','_0x4d5523','exit','console','_0x16a6dc','724254ixdWmA','145380kPkTPt','url','_0x42bf01','log','process','[RECEIVED]','_0xd8e3ff','_0x5ef932','apply','magenta','message','uptime','_0x392915','❎\x20Error:','144ANABGL','cyan','8weeCuv','1187760ySJxSs','join','33MsZHwv'];_0x73b9=function(){return _0x55ed93;};return _0x73b9();}import _0x53cee8 from'cfonts';import{createInterface}from'readline';import _0x3636de from'yargs';import _0x15402a from'express';const _0x204c10=dirname(fileURLToPath(import.meta[_0x216ff9(0x1c7)])),{_0x3f5d73:_0x121cfe}=_0x53cee8,_0x5c2be7=createInterface(process[_0x216ff9(0x1cd)],process[_0x216ff9(0x1a7)]),_0x3f6f01=_0x15402a(),_0x149615=process[_0x216ff9(0x1b2)][_0x216ff9(0x1c1)]||0x1f90;_0x121cfe('MidSoune\x20BOT\x20by\x20MidSoune',{'font':'console','align':_0x216ff9(0x1bf),'_0x3feb3d':[_0x216ff9(0x1aa),_0x216ff9(0x1cf)]}),_0x3f6f01[_0x216ff9(0x1c4)](_0x149615,()=>{});var _0x4a7e27=![];function _0x576f(_0x35d346,_0x52dca6){const _0x73b93f=_0x73b9();return _0x576f=function(_0x576fe0,_0x5b2614){_0x576fe0=_0x576fe0-0x1a7;let _0x25a617=_0x73b93f[_0x576fe0];return _0x25a617;},_0x576f(_0x35d346,_0x52dca6);}async function _0x147783(_0x2959b0){const _0x5cfafc=_0x216ff9;if(_0x4a7e27)return;_0x4a7e27=!![];let _0x377898=[join(_0x204c10,_0x2959b0),...process['_0x41f9c6'][_0x5cfafc(0x1b4)](0x2)];_0x121cfe([process['_0x41f9c6'][0x0],..._0x377898][_0x5cfafc(0x1ad)]('\x20'),{'font':_0x5cfafc(0x1c3),'align':_0x5cfafc(0x1bf),'_0x3feb3d':['red',_0x5cfafc(0x1cf)]}),setupMaster({'exec':_0x377898[0x0],'_0x593808':_0x377898['slice'](0x1)});let _0x31d19c=fork();_0x31d19c[_0x5cfafc(0x1b9)](_0x5cfafc(0x1d0),_0x357df1=>{const _0x421205=_0x5cfafc;console[_0x421205(0x1c9)](_0x421205(0x1cb),_0x357df1);switch(_0x357df1){case _0x421205(0x1bb):_0x31d19c[_0x421205(0x1ca)][_0x421205(0x1ba)](),_0x4a7e27=![],_0x147783[_0x421205(0x1ce)](this,arguments);break;case _0x421205(0x1d1):_0x31d19c['send'](process['uptime']());break;}}),_0x31d19c['_0x402610'](_0x5cfafc(0x1c2),(_0x10b16e,_0x35971a)=>{const _0x4a5199=_0x5cfafc;_0x4a7e27=![],console[_0x4a5199(0x1b0)](_0x4a5199(0x1a8),_0x35971a),_0x147783(_0x4a5199(0x1bd));if(_0x35971a===0x0)return;watchFile(_0x377898[0x0],()=>{unwatchFile(_0x377898[0x0]),_0x147783(_0x2959b0);});});let _0x45e43d=new Object(_0x3636de(process['_0x41f9c6'][_0x5cfafc(0x1b4)](0x2))[_0x5cfafc(0x1be)](![])['parse']());if(!_0x45e43d['test']){if(!_0x5c2be7[_0x5cfafc(0x1c8)]())_0x5c2be7[_0x5cfafc(0x1b9)](_0x5cfafc(0x1b5),_0x4b45e6=>{const _0x22177d=_0x5cfafc;_0x31d19c[_0x22177d(0x1cc)]('message',_0x4b45e6[_0x22177d(0x1b1)]());});}}_0x147783(_0x216ff9(0x1bd));
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
+import { setupMaster, fork } from 'cluster'
+import { watchFile, unwatchFile } from 'fs'
+import cfonts from 'cfonts';
+import { createInterface } from 'readline'
+import yargs from 'yargs'
+import express from 'express'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const { say } = cfonts
+const rl = createInterface(process.stdin, process.stdout)
+const app = express()
+const port = process.env.PORT || 8080;
+
+say(`MidSoune BOT by MidSoune`, {
+  font: 'console',
+  align: 'center',
+  gradient: ['cyan', 'magenta']
+})
+
+app.listen(port, () => {});
+var isRunning = false
+
+async function start(file) {
+  if (isRunning) return
+  isRunning = true
+  let args = [join(__dirname, file), ...process.argv.slice(2)]
+  say([process.argv[0], ...args].join(' '), {
+    font: 'console',
+    align: 'center',
+    gradient: ['red', 'magenta']
+  })
+  setupMaster({
+    exec: args[0],
+    args: args.slice(1),
+  })
+  let p = fork()
+  p.on('message', data => {
+    console.log('[RECEIVED]', data)
+    switch (data) {
+      case 'reset':
+        p.process.kill()
+        isRunning = false
+        start.apply(this, arguments)
+        break
+      case 'uptime':
+        p.send(process.uptime())
+        break
+    }
+  })
+  p.on('exit', (_, code) => {
+    isRunning = false
+    console.error('❎ Error:', code)
+    start('Midsoune.js');
+
+    if (code === 0) return
+    watchFile(args[0], () => {
+      unwatchFile(args[0])
+      start(file)
+    })
+  })
+
+  let opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+  if (!opts['test'])
+    if (!rl.listenerCount()) rl.on('line', line => {
+      p.emit('message', line.trim())
+    })
+}
+
+start('Midsoune.js')
