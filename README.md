@@ -11,16 +11,11 @@ This project is an example that was built along with a Youtube Series showing ho
 - Push your Helm chart to a Helm Chart repo using Github Actions and Github Pages (coming soon)
 - How to write a good README (you are reading it now!)
 
-## Watch the full series!
-
-<a href="https://www.youtube.com/playlist?list=PLSvCAHoiHC_rqKbcu1ummWVpLTDBNZHH7" target="_blank">
-<img src="http://img.youtube.com/vi/SiGxu2N9ndU/mqdefault.jpg" alt="Watch the series" width="240" height="180" border="10" />
-</a>
-
 ## How to Get SESSION_ID
+EASY Way To Connect Your ◆─ᴍɪᴅ-ʙᴏᴛ─◆:
 
 <a href="https://paringcode-9b409aad4967.herokuapp.com/pair" target="_blank">
-<img src="http://img.youtube.com/vi/SiGxu2N9ndU/mqdefault.jpg" alt="Watch the series" width="240" height="180" border="10" />
+<img src="https://github.com/midsoune/MidSoune-BOT/blob/main/Menu.jpg" alt="SESSION_ID" width="240" height="180" border="10" />
 </a>
 
 1. Enter Your Whatsapp Number
