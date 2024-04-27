@@ -740,11 +740,11 @@ global.dfail = (type, m, conn) => {
         botAdmin: `*${emoji.botAdmin} Bot Admin's Query*\n
     ${userTag} Make the bot an *Admin* to use this command!`,
         unreg: `*${emoji.unreg} Registration Query*\n
-    ${userTag} Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register ${m.name}.18*!`,
-        nsfw: `*${emoji.nsfw} NSFW Query*\n
-    ${userTag} NSFW is not active. Please contact the Group admin to enable this feature!`,
-        restrict: `*${emoji.restrict} Inactive Feature Query*\n
-    ${userTag} This feature is *disabled*!`,
+    ${userTag} *يجب التسجيل في البوت قبل إستعمال هذا الأمر، عن طريق كتابة*:\n\n*#reg name.age*\n\nExample: *#ref ${m.name}.18*!`,
+        nsfw: `*${emoji.nsfw} NSFW*\n
+    ${userTag} NSFW مفعل. Please contact the Group admin to enable this feature!`,
+        restrict: `*${emoji.restrict}*\n
+    ${userTag} *هذه الخاصية معطلة*!`,
     }
      [type]
     if (msg) return  m.reply(msg)
