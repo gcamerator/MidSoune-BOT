@@ -10,7 +10,7 @@
         pkgs.libwebp
         pkgs.speedtest-cli
         pkgs.wget
-        pkgs.yarn
+        pkgs.yarn 
         pkgs.pm2
         pkgs.libuuid
     ];
