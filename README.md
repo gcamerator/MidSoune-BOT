@@ -28,4 +28,4 @@
 
 ◆─ Debloy it.
 
-<a href="https://dashboard.heroku.com/new-app?template=https://github.com/midsoune/MidSoune-BOT/" rel="nofollow"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjcXMgi_AdkaF1D1xT2vQ2dwrnjsCgcrFi-lvVbUAu3e6UvOUnURP_c34c4sSGpufox0&usqp=CAU" width="220" "></a>
+<a href="https://dashboard.heroku.com/new-app?template=https://github.com/midsoune/MidSoune-BOT/" rel="nofollow"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjcXMgi_AdkaF1D1xT2vQ2dwrnjsCgcrFi-lvVbUAu3e6UvOUnURP_c34c4sSGpufox0&usqp=CAU" width="220"></a>
