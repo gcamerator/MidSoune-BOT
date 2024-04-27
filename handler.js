@@ -5,7 +5,6 @@ import path, {join} from "path"
 import {unwatchFile,watchFile,readFileSync} from "fs"
 import chalk from "chalk"
 import fetch from "node-fetch"
-import {WelcomeLeave} from "./lib/welcome.js"
 /**
  * @type {import("@whiskeysockets/baileys")}
  */
@@ -176,6 +175,8 @@ export async function handler(chatUpdate) {
                     chat.match = false
                  if (!('go' in chat))
                     chat.go = false
+                if (!('zmr' in chat))
+                    chat.zmr = false
             } else
                 global.db.data.chats[m.chat] = {
                     antiDelete: true,
@@ -206,7 +207,8 @@ export async function handler(chatUpdate) {
                     gemini: false,
                     ham: false,
                     go: false,
-                    gptv: false
+                    gptv: false,
+                    zm: false
                 }
           
                 
@@ -277,7 +279,7 @@ export async function handler(chatUpdate) {
         const isAdmin = isRAdmin || user?.admin == "admin" || false // Is User Admin?
         const isBotAdmin = bot?.admin || false // Are you Admin?
 
-        const ___dirname = path.join(path.dirname(fileURLToPath(import.meta.url)), "./plugins")
+        const ___dirname = path.join(path.dirname(fileURLToPath(import.meta.url)), "./Mid-Plugins")
         for (let name in global.plugins) {
             let plugin = global.plugins[name]
             if (!plugin)

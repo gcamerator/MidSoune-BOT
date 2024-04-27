@@ -1,5 +1,5 @@
 {
-  "name": "MidSoune-BOT",
+  "name": "midsoune-bot",
   "version": "1.0.0",
   "description": "WhatsApp Bot By MidSoune",
   "main": "index.js",
@@ -36,7 +36,7 @@
     "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
     "acrcloud": "^1.4.0",
     "node_extra_ca_certs_mozilla_bundle": "^1.0.6",
-    "aki-api": "^6.0.9",
+    "aki-api": "^7.0.0",
     "node-cache" : "^5.1.2",
     "api-dylux": "^1.6.9",
     "aptoide-scraper": "^1.0.1",
@@ -82,6 +82,7 @@
     "undici": "^6.4.0",
     "url-regex-safe": "^3.0.0",
     "wa-sticker-formatter": "^4.3.2",
+    "sharp": "0.32.2",
     "yargs": "^17.6.0"
   },
   "overrides": {
