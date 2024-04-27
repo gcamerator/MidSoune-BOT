@@ -28,12 +28,12 @@
   "bugs": {
     "url": "https://github.com/midsoune/MidSoune-BOT/issues"
   },
-  "license": "Apache License 2.0",
+  "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^4.0.22-alpha.0",
     "@vitalets/google-translate-api": "^9.2.0",
-    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys",
+    "@whiskeysockets/baileys": "^6.6.0",
     "acrcloud": "^1.4.0",
     "node_extra_ca_certs_mozilla_bundle": "^1.0.6",
     "aki-api": "^7.0.0",
