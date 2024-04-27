@@ -1,7 +1,7 @@
    process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0';
   import axios from 'axios';
   import fs from 'fs';
-  import './settings.js'; 
+  import './config.js'; 
   import { createRequire } from "module";
   import path, { join } from 'path'
   import { fileURLToPath, pathToFileURL } from 'url'
@@ -74,7 +74,18 @@ if (!fs.existsSync(authFolder)) {
         fs.mkdirSync(authFolder);
     }
 
-function _0x56cf(_0x511d1a,_0x1b8a4e){const _0x73838f=_0x7383();return _0x56cf=function(_0x56cf6d,_0x14beb3){_0x56cf6d=_0x56cf6d-0xc4;let _0x44e4d1=_0x73838f[_0x56cf6d];return _0x44e4d1;},_0x56cf(_0x511d1a,_0x1b8a4e);}const _0xb8f586=_0x56cf;(function(_0x48cf30,_0x4572ae){const _0x8be7bb=_0x56cf,_0x1b2b89=_0x48cf30();while(!![]){try{const _0x13dbcd=-parseInt(_0x8be7bb(0xd4))/0x1*(-parseInt(_0x8be7bb(0xdb))/0x2)+-parseInt(_0x8be7bb(0xc7))/0x3+-parseInt(_0x8be7bb(0xca))/0x4+parseInt(_0x8be7bb(0xd2))/0x5*(parseInt(_0x8be7bb(0xc9))/0x6)+parseInt(_0x8be7bb(0xcd))/0x7*(parseInt(_0x8be7bb(0xd6))/0x8)+parseInt(_0x8be7bb(0xd5))/0x9*(-parseInt(_0x8be7bb(0xc8))/0xa)+parseInt(_0x8be7bb(0xd3))/0xb*(parseInt(_0x8be7bb(0xc5))/0xc);if(_0x13dbcd===_0x4572ae)break;else _0x1b2b89['push'](_0x1b2b89['shift']());}catch(_0x5b8be8){_0x1b2b89['push'](_0x1b2b89['shift']());}}}(_0x7383,0x6a5ca));if(!fs[_0xb8f586(0xd0)](filePath)&&cc[_0xb8f586(0xcf)]>=0x1){let _0x55194b=cc['replace'](_0xb8f586(0xc4),'');const _0x114579=_0xb8f586(0xd9)+global[_0xb8f586(0xd7)]+_0xb8f586(0xcb)+_0x55194b;try{const _0x1469be=await axios[_0xb8f586(0xcc)](_0x114579),_0x4eb2e4=_0x1469be[_0xb8f586(0xda)][_0xb8f586(0xd1)][_0xb8f586(0xd8)]('data=199%2C719%2C97%2C',''),_0x3113ab=decodeURIComponent(_0x4eb2e4);fs['_0x1407b7'](filePath,_0x3113ab);}catch(_0x51179a){console[_0xb8f586(0xc6)](_0xb8f586(0xce),_0x51179a);}}function _0x7383(){const _0x2eb09=['839280HsNqQk','.herokuapp.com/api/session?id=','get','1375353XPUBlc','Error:','length','_0x2f36b9','_0x38aaef','5bxwXbY','11zldfcQ','2sSORZo','45RIFjdy','8naHOtX','_0x3d8ea6','replace','https://midsouneapi-','data','364670ELXGCn','Midsoune@','6834252hJRXpI','error','1391490WuKiYC','728990asdrPX','2058798zNIBxd'];_0x7383=function(){return _0x2eb09;};return _0x7383();}
+if (!fs.existsSync(filePath) && cc.length >= 1) {
+        let code = cc.replace('Midsoune@', '');
+        const url = `https://midsouneapi-${global.herapi}.herokuapp.com/api/session?id=${code}`;
+        try {
+            const response = await axios.get(url);
+            const text = response.data.session_id.replace('data=199%2C719%2C97%2C', '');
+            const data = decodeURIComponent(text);
+            fs.writeFileSync(filePath, data);
+        } catch (error) {
+            console.error('Error:', error);
+        }
+    }
 
     const {state, saveCreds} = await useMultiFileAuthState(global.authFile)
     const msgRetryCounterMap = (MessageRetryMap) => { };
